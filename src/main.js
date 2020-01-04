@@ -7,6 +7,7 @@ window.$ = window.jQuery = jQuery;
 import "bootstrap";
 import "./assets/app.scss";
 import "popper.js";
+import './registerServiceWorker'
 Vue.use(window.VueCharts);
 Vue.config.productionTip = false;
 
